@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    background: #4267B2;
+}
+.container{
+    width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.left-part{
+    width: 50%;
+    float:  left;
+}
+.logo{font-size: 40px;color: white;text-decoration: none;font-weight: 900;margin-top: 30px;display: block;}
+.right-part{
+    width: 50%;
+    float: right;
+}
+.login-form{}
+.login-form li{
+    float: left;
+    list-style: none;
+    padding: 12px;
+}
+.login-form li span{
+    color: white;
+    font-size: 12px;
+    display: block;
+}
+.login-form input{
+    border: 1px solid #171717;
+    padding: 3px 4px;
+    width: 100%;
+    margin: 3px 0;
+    font-weight: 600;
+}
+.login-form a{
+    display: block;
+    color: #ffffff99;
+    font-size: 12px;
+    text-decoration: none;
+}
+.login-form a:hover{
+    text-decoration: underline;
+}
+
+.login{
+    background: #7897d6;
+    color: white;
+    padding: 5px 10px !important;
+    margin-top: 18px !important;
+}
+
+.account-section{
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,d9dfea+100 */
+    background: #ffffff; /* Old browsers */
+    background: -moz-linear-gradient(top, #ffffff 0%, #d9dfea 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #ffffff 0%,#d9dfea 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #ffffff 0%,#d9dfea 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#d9dfea',GradientType=0 ); /* IE6-9 */
+    overflow: hidden;
+    min-height: 100vh;
+}
+
+.account-section .left-part{
+    padding-right: 60px;
+    box-sizing: border-box;
+}
+.account-section h3{
+    font-size: 20px;
+    color: #0e295a;
+    margin-top: 30px;
+}
+.account-section img{
+    max-width: 100%;
+    margin: 15px 0;
+}
+.account-section h1{
+    font-size: 35px;
+    margin-top: 15px;
+}
+.account-section p{
+    font-size: 18px;
+    margin: 10px 0;
+}
+.account-section form{}
+
+.name{
+    overflow: hidden;
+}
+.name li{
+    list-style: none;
+    width: 50%;
+    float: left;
+    padding: 0 5px;
+    box-sizing: border-box;
+}
+.name li input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #607d8b85;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.info{}
+.info li{
+    list-style: none;
+    padding: 0 5px;
+    box-sizing: border-box;
+}
+.info li input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #607d8b85;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.account-section h4{
+    font-size: 20px;
+    color: #00000096;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+
+select{
+    /* width: 100%; */
+    padding: 5px;
+    border: 1px solid #607d8b85;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.name a{
+    color: #41619E;
+    font-size: 12px;
+    display: block;
+    max-width: 150px;
+}
+
+.gender{
+    margin: 10px 0;
+}
+.gender input{}
+.gender span{
+    margin-right: 15px;
+}
+
+.terms{}
+.terms p{
+    color: grey;
+    font-size: 12px;
+    max-width: 300px;
+}
+.terms a{}
+
+.signup{
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#71aa58+0,618a45+100 */
+    margin: 10px;
+    background: #71aa58; /* Old browsers */
+    background: -moz-linear-gradient(top, #71aa58 0%, #618a45 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #71aa58 0%,#618a45 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #71aa58 0%,#618a45 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#71aa58', endColorstr='#618a45',GradientType=0 ); /* IE6-9 */
+    padding: 5px 25px;
+    color: white;
+    font-size: 18px;
+    border: 1px solid #618a45;
+    margin: 10px 0;
+    /* display: block; */
+}
+
+.fb-page{
+    margin-bottom: 20px;
+}
+.fb-page p{
+    font-size: 20px;
+    color: grey;
+}
+.fb-page p a{
+    text-decoration: none;
+    color: #4560A2;
+}
